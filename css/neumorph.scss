@@ -77,6 +77,7 @@ body {
   }
 
   .cardcontainer{
+    display:flex;
     background-color: #e0e0e0;
     padding: 10px;
     margin: 1em auto;
@@ -86,6 +87,8 @@ body {
             -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
     width: max-content;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
 
     .h1 {
       font-weight: bold;
